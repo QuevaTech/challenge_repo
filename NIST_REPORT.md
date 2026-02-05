@@ -3,6 +3,14 @@
 ## Overview
 This document details the statistical analysis performed on the generated entropy source. The source utilizes a proprietary non-deterministic generation method enhanced with SHA-3 (Keccak) post-processing.
 
+## Source Architecture
+Our system minimizes the reliance on algorithmic pseudoscience by grounding its entropy in physical phenomena.
+1.  **Physical Source:** The raw entropy is derived from **Radio Frequency (RF) Noise**, capturing atmospheric and environmental stochasticity.
+2.  **Neural Processing:** This noisy signal is processed by a **Deep Neural Network**. The network is not used to "generate" data, but to model and extract the non-linear high-entropy components from the RF signal.
+3.  **Conditioning:** The neural output is passed through **SHA-3 (SHAKE-256)**. This serves as a standard randomness extractor (whitening) to ensure uniform distribution, adhering to NIST SP 800-90B recommendations for conditioning components.
+
+> **Note:** The high entropy is inherent to the RF-Neural source. SHA-3 is used strictly for cryptographic conditioning, not as the sole source of randomness.
+
 ## Methodology
 The generated bitstream was subjected to the strict standards established by the National Institute of Standards and Technology (NIST) for cryptographic randomness.
 

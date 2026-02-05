@@ -3,7 +3,7 @@
 [🇬🇧 Read in English](README.md) | [🇹🇷 Türkçe Oku](README.tr.md)
 
 ## Giriş
-Derin sinir ağları mimarisi ve SHA-3 (Keccak) işlemcisiyle güçlendirilmiş yeni nesil bir rastgele sayı üreteci geliştirdik. Bu kaynağın **Gerçek Rastgelelik (True Randomness)** kalitesinde olduğunu ve ideal gürültü kaynaklarından ayırt edilemeyeceğini iddia ediyoruz.
+**Radyo Frekansı (RF) Gürültüsünü** özel bir **Sinir Ağı (Neural Network)** mimarisi ile işleyen ve SHA-3 (Keccak) işlemcisiyle güçlendiren yeni nesil bir rastgele sayı üreteci geliştirdik. Bu kaynağın **Gerçek Rastgelelik (True Randomness)** kalitesinde olduğunu ve ideal gürültü kaynaklarından ayırt edilemeyeceğini iddia ediyoruz.
 
 Çıktıları ve doğrulama raporlarını yayınlıyoruz—fakat **kaynak kodu paylaşmıyoruz**. Yarışma çok basit: **Yanıldığımızı kanıtlayın.**
 

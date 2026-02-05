@@ -3,7 +3,7 @@
 [🇬🇧 Read in English](README.md) | [🇹🇷 Türkçe Oku](README.tr.md)
 
 ## Introduction
-We have developed a next-generation random number generator defined by a proprietary neural-based architecture and SHA-3 post-processing. We claim this source provides **True Randomness** quality, indistinguishable from ideal noise sources.
+We have developed a next-generation random number generator that processes **Radio Frequency (RF) Noise** through a proprietary **Neural Network architecture**, followed by SHA-3 post-processing. We claim this source provides **True Randomness** quality, indistinguishable from ideal noise sources.
 
 We are releasing the outputs and the verification reports—but **not the source code**. The challenge is simple: **Prove us wrong.**
 
